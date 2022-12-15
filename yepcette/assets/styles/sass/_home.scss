@@ -1,12 +1,67 @@
 #home{
     > section:nth-of-type(1){
-        height: 50vh;
+        height: 70vh;
         background-image: url("https://picsum.photos/id/292/500/300");
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         > h1{
+            font-size: 5rem;
+            font-weight: bold;
+            color: $white;
+        }
+        > p{
             font-size: 3rem;
             font-weight: bold;
             color: $white;
         }
+    }
+    > section:nth-of-type(2){
+        background-color: gainsboro;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 0.1fr 1fr;
+        > ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 20px;
+
+        }
+    }
+}
+
+
+.article{
+    width: 20vw;
+    display: grid;
+    grid-template-rows: 1fr 0.8fr 0.2fr;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+    > header{
+        > figure{
+            width: 100%;
+            > img{
+                width: 100%;
+            }
+        }
+    }
+    > section{
+        > h3{
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        > p{
+            font-size: 1.2rem;
+        }
+    }
+    > footer{
+        display: flex;
+        justify-content: center;
     }
 }

@@ -1,5 +1,8 @@
 body > header{
-    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
     display: grid;
     grid-template-columns: 0.1fr 0.1fr 0.1fr 0.8fr 0.4fr 0.2fr 0.1fr;
     grid-template-rows: 10vh;
@@ -30,7 +33,7 @@ body > header{
                     font-size: 1.4rem;
                     text-decoration: none;
                     @media (prefers-color-scheme: light){
-                        color: $black;
+                        color: $white;
                     }
                     @media (prefers-color-scheme: dark){
                         color: $white;
@@ -39,7 +42,7 @@ body > header{
                 &:hover{
                     transform: translateY(-4px);
                     @media (prefers-color-scheme: light){
-                        border-bottom: 4px solid $black;
+                        border-bottom: 4px solid $white;
                     }
                     @media (prefers-color-scheme: dark){
                         border-bottom: 4px solid $white;
@@ -58,7 +61,7 @@ body > header{
                 font-size: 1.4rem;
                 text-decoration: none;
                 @media (prefers-color-scheme: light){
-                    color: $black;
+                    color: $white;
                 }
                 @media (prefers-color-scheme: dark){
                     color: $white;
