@@ -157,4 +157,8 @@ body > header > ul > li:hover > a {
   display: none;
 }
 
+.hidden {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
