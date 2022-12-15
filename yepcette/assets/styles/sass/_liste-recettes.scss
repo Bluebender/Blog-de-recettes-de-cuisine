@@ -1,0 +1,27 @@
+#liste-recettes {
+    height: 260vh;
+    
+}
+.m-section1{
+    height: 70vh;
+    background-image: url(https://1964035949.rsc.cdn77.org/uploads/media/5956128d0a17e.png);
+    background-size: cover;
+    box-shadow: 1px;
+}
+.m-section2{
+    height: 8vh;
+    text-align: center;
+    font-size:  3.5rem;
+    font-family: 'Work Sans', sans-serif;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.m-section3{
+    height: 100vh;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+

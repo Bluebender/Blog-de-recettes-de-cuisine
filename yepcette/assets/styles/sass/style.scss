@@ -3,6 +3,7 @@
 @import "header.scss";
 @import "home.scss";
 @import "footer.scss";
+@import "liste-recettes.scss";
 /***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
 /***** open pour texte  font-family: 'Open Sans', sans-serif; *****/
@@ -12,4 +13,16 @@
 .hidden{
     display: none;
 }
+<<<<<<< HEAD
 
+=======
+h2, h4, h4, li{
+    font-family: 'Work Sans', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Corinthia', cursive;
+}
+>>>>>>> 20f7610c02734d1b6f6405327d9326755c5e5038
