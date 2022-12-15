@@ -66,10 +66,9 @@ body > header > h1 {
   align-self: center;
   justify-self: center;
   grid-column: 2/3;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: bold;
   font-family: "Corinthia";
-  font-family: work;
 }
 body > header > nav {
   grid-column: 4/5;
