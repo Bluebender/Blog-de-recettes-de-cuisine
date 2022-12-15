@@ -70,9 +70,8 @@ body > header > h1 {
   justify-self: center;
   grid-column: 2/3;
   font-size: 4rem;
-  color: #8B0000;
+  color: mistyrose;
   font-weight: 700;
-  font-family: "Corinthia", cursive;
 }
 body > header > nav {
   grid-column: 4/5;
@@ -85,7 +84,6 @@ body > header > nav > ul {
   align-items: center;
 }
 body > header > nav > ul > li {
-  font-family: "Work Sans", sans-serif;
   padding: 5px 0;
 }
 body > header > nav > ul > li > a {
@@ -155,14 +153,17 @@ body > header > ul > li:hover > a {
   grid-column: 2/3;
   font-size: 5rem;
   font-weight: bold;
-  color: #ffffff;
+  color: mistyrose;
 }
 #home > section:nth-of-type(1) > section > p {
   grid-column: 2/3;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   color: #ffffff;
   width: 60vh;
+}
+#home > section:nth-of-type(1) > section > p > span {
+  color: mistyrose;
 }
 #home > section:nth-of-type(2) {
   background-color: gainsboro;
@@ -347,8 +348,16 @@ main {
   display: none;
 }
 
-.hidden {
-  display: none;
+h2, h4, h4, li {
+  font-family: "Work Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Corinthia", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
