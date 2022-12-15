@@ -289,6 +289,24 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
   padding-top: 3vh;
 }
 
+main {
+  height: 100vh;
+}
+
+.m-section1 {
+  height: 70vh;
+  background-image: url(https://1964035949.rsc.cdn77.org/uploads/media/5956128d0a17e.png);
+  background-size: cover;
+  box-shadow: 1px;
+}
+
+.m-section2 {
+  height: 10vh;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Corinthia", cursive;
+}
+
 /***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
 /***** open pour texte  font-family: 'Open Sans', sans-serif; *****/
 /***** Corinthia pour logo *****/
