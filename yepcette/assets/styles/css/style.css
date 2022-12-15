@@ -150,6 +150,91 @@ body > header > ul > li:hover > a {
   color: #ffffff;
 }
 
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+.footer1 {
+  display: grid;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr;
+  font-family: "Work Sans", sans-serif;
+}
+
+.f-titre {
+  text-align: center;
+  font-family: "Corinthia", cursive;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #8B0000;
+}
+
+.f-article1 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.f-list1 {
+  display: flex;
+  grid-column: 2/3;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.f-li1 {
+  margin: 0;
+  text-decoration: none;
+}
+
+.f-article2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2vh;
+}
+
+.f-list2 {
+  display: flex;
+  grid-column: 2/3;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.f-li2 {
+  margin: 0px 5px;
+}
+
+body .footer1 .f-article1 .f-list1 .f-li1 a {
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  color: black;
+}
+
+body .footer1 .f-article2 .f-list2 .f-li2 a {
+  color: #262626;
+  font-size: 17px;
+  border-radius: 50px;
+  background-color: #e6e3e2;
+}
+
+body .footer1 .f-article2 .f-list2 .f-li2 a span {
+  width: 48px;
+}
+
+.f-titre2 {
+  text-align: center;
+  padding-top: 3vh;
+}
+
 /***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
 /***** open pour texte  font-family: 'Open Sans', sans-serif; *****/
 /***** Corinthia pour logo *****/
