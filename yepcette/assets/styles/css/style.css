@@ -323,8 +323,8 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
   padding-top: 3vh;
 }
 
-main {
-  height: 100vh;
+#liste-recettes {
+  height: 260vh;
 }
 
 .m-section1 {
@@ -335,10 +335,18 @@ main {
 }
 
 .m-section2 {
-  height: 10vh;
+  height: 8vh;
   text-align: center;
-  font-size: 4rem;
-  font-family: "Corinthia", cursive;
+  font-size: 3.5rem;
+  font-family: "Work Sans", sans-serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.m-section3 {
+  height: 100vh;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
