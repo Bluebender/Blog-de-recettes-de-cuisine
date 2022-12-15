@@ -8,21 +8,23 @@ body > header{
         align-self: center;
         justify-self: center;
         grid-column: 2 / 3;
-        font-size: 5rem;
-        font-weight: bold;
-        font-family: 'Corinthia';
-        
+        font-size: 4rem;
+        color: #8B0000;
+        font-weight: 700;
+        font-family: 'Corinthia', cursive;
+
     }
     > nav{
         grid-column: 4 / 5;
         display: flex;
-        font-family: 'Work Sans', sans-serif;
+        
         > ul{
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             > li{
+                font-family: 'Work Sans', sans-serif;
                 padding: 5px 0;
                 > a{
                     font-size: 1.4rem;
