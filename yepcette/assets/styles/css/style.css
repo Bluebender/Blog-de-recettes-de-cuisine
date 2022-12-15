@@ -144,19 +144,21 @@ body > header > ul > li:hover > a {
 
 #home > section:nth-of-type(1) {
   height: 70vh;
-  background-image: url("https://picsum.photos/id/292/500/300");
+  background-image: url("https://cdn.shopify.com/s/files/1/0566/8526/5032/files/4_3d6903d4-c9f9-4a3b-8f6c-00e884e04bbf.png?v=1656921267");
   background-size: cover;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
 }
 #home > section:nth-of-type(1) > h1 {
+  grid-column: 2/3;
   font-size: 5rem;
   font-weight: bold;
   color: #ffffff;
 }
 #home > section:nth-of-type(1) > p {
+  grid-column: 2/3;
   font-size: 3rem;
   font-weight: bold;
   color: #ffffff;
