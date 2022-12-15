@@ -74,6 +74,7 @@ body > header > h1 {
 body > header > nav {
   grid-column: 4/5;
   display: flex;
+  font-family: "Work Sans", sans-serif;
 }
 body > header > nav > ul {
   width: 100%;
