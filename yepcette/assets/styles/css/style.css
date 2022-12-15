@@ -68,7 +68,7 @@ body > header > h1 {
   grid-column: 2/3;
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Corinthia", cursive;
+  font-family: "Corinthia";
   font-family: work;
 }
 body > header > nav {
@@ -138,13 +138,6 @@ body > header > ul > li:hover > a {
   color: grey;
 }
 
-/***** Work pour titre *****/
-/***** open pour texte *****/
-/***** Corinthia pour logo *****/
-.hidden {
-  display: none;
-}
-
 #home > section:nth-of-type(1) {
   height: 50vh;
   background-image: url("https://picsum.photos/id/292/500/300");
@@ -154,6 +147,13 @@ body > header > ul > li:hover > a {
   font-size: 3rem;
   font-weight: bold;
   color: #ffffff;
+}
+
+/***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
+/***** open pour texte  font-family: 'Open Sans', sans-serif; *****/
+/***** Corinthia pour logo *****/
+.hidden {
+  display: none;
 }
 
 .hidden {
