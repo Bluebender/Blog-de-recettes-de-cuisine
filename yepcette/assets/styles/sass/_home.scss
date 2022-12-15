@@ -12,18 +12,80 @@
                 grid-column: 2 / 3;
                 font-size: 5rem;
                 font-weight: bold;
-                color: $white;
+                color: mistyrose;
+                
             }
             > p{
                 grid-column: 2 / 3;
-                font-size: 3rem;
+                font-size: 2.6rem;
                 font-weight: bold;
                 color: $white;
                 width: 60vh;
+                > span{
+                    color: mistyrose;
+                }
             }
         }
     }
     > section:nth-of-type(2){
+        display: grid;
+        grid-template-rows: 0.1fr 1fr;
+        > h2{
+            font-size: 3rem;
+            font-weight: bold;
+            color: $black;
+            margin: 50px;
+            text-align: center;
+        }
+        > ul{
+            background-color: gainsboro;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            margin: 50px auto;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            padding: 40px;
+            > li{
+                > article{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    > header{
+                        > figure{
+                            width: 100%;
+                            > img{
+                                width: 300px;
+                                border-radius: 100%;
+                            }
+                        }
+                    }
+                    > section{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        > h3{
+                            font-size: 2rem;
+                            font-weight: bold;
+                            margin: 20px 0;
+                        }
+                        > p{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    > footer{
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+        
+    > section:nth-of-type(3){
         background-color: gainsboro;
         display: grid;
         grid-template-rows: 0.1fr 1fr;
@@ -77,6 +139,7 @@
         justify-content: center;
     }
 }
+
 
 .btn-blue{
     display: inline-block;
