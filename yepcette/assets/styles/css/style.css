@@ -59,12 +59,12 @@ body > header {
   grid-template-rows: 10vh;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
-body > header > figure {
+body > header > h1 {
+  align-self: center;
+  justify-self: center;
   grid-column: 2/3;
-  height: 100%;
-}
-body > header > figure > img {
-  height: 100%;
+  font-size: 2rem;
+  font-weight: bold;
 }
 body > header > nav {
   grid-column: 4/5;
