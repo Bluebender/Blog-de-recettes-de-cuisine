@@ -66,10 +66,10 @@ body > header > h1 {
   align-self: center;
   justify-self: center;
   grid-column: 2/3;
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 4rem;
+  color: #8B0000;
+  font-weight: 700;
   font-family: "Corinthia", cursive;
-  font-family: work;
 }
 body > header > nav {
   grid-column: 4/5;
@@ -82,6 +82,7 @@ body > header > nav > ul {
   align-items: center;
 }
 body > header > nav > ul > li {
+  font-family: "Work Sans", sans-serif;
   padding: 5px 0;
 }
 body > header > nav > ul > li > a {
@@ -138,13 +139,6 @@ body > header > ul > li:hover > a {
   color: grey;
 }
 
-/***** Work pour titre *****/
-/***** open pour texte *****/
-/***** Corinthia pour logo *****/
-.hidden {
-  display: none;
-}
-
 #home > section:nth-of-type(1) {
   height: 50vh;
   background-image: url("https://picsum.photos/id/292/500/300");
@@ -156,6 +150,9 @@ body > header > ul > li:hover > a {
   color: #ffffff;
 }
 
+/***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
+/***** open pour texte  font-family: 'Open Sans', sans-serif; *****/
+/***** Corinthia pour logo *****/
 .hidden {
   display: none;
 }
