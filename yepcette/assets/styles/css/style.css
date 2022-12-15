@@ -396,10 +396,40 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
 }
 
 .m-section3 {
-  height: 100vh;
+  height: 80vh;
   border-bottom: 1px solid black;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+}
+
+.m-card {
+  background-color: white;
+  width: 360px;
+  height: 400px;
+  margin: 40px;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+
+.card-image {
+  background-color: #1499e7;
+  height: 170px;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+  background-image: url(https://www.hervecuisine.com/wp-content/uploads/2017/12/recette-raclette-1118x516.jpg.webp);
+  background-size: cover;
+}
+
+.car-2 {
+  background-image: url(https://www.cuisineactuelle.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F03ab5e89-bad7-4a44-b952-b30c68934215.2Ejpeg/555x276/quality/80/crop-from/center/burger-maison.jpeg);
+  background-size: cover;
+}
+
+.car-3 {
+  background-image: url(https://img.cuisineaz.com/660x660/2016/08/31/i93404-gratin-de-lasagnes-a-la-bolognaise.jpg);
+  background-size: cover;
 }
 
 /***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
