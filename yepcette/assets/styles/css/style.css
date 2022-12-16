@@ -568,12 +568,22 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
 }
 
 .car-6 {
-  background-image: url(https://img.cuisineaz.com/660x660/2016/08/31/i93404-gratin-de-lasagnes-a-la-bolognaise.jpg);
+  background-image: url(https://www.radiofrance.fr/s3/cruiser-production/2016/01/99ed246f-b5fc-11e5-b817-005056a87c30/860_raclette-du-valais-aoc-5.jpg);
   background-size: cover;
 }
 
 .car-7 {
-  background-image: url(https://img.cuisineaz.com/660x660/2016/08/31/i93404-gratin-de-lasagnes-a-la-bolognaise.jpg);
+  background-image: url(https://www.grazia.fr/wp-content/uploads/grazia/2013/10/Joue-de-baeuf-confite-et-potimarron-braise.jpg);
+  background-size: cover;
+}
+
+.car-8 {
+  background-image: url(https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_488,q_auto,w_650/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/177274/122825858.jpg);
+  background-size: cover;
+}
+
+.car-9 {
+  background-image: url(https://marcwiner.com/wp-content/uploads/2022/03/porc-caramel-tiktok-scaled.jpg);
   background-size: cover;
 }
 
