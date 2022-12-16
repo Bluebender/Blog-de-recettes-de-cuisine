@@ -4,8 +4,6 @@ body > header{
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.4);
     display: grid;
-    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.8fr 0.4fr 0.2fr 0.1fr;
-    grid-template-rows: 10vh;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     > h1{
         align-self: center;
@@ -50,7 +48,6 @@ body > header{
         }
     }
     > ul{
-        grid-column: 6 / 7;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -71,6 +68,25 @@ body > header{
                     color: grey;
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    body > header{
+        grid-template-columns: 0.1fr 0.1fr 0.1fr 0.8fr 0.4fr 0.2fr 0.1fr;
+        grid-template-rows: 10vh;
+        > ul{
+            grid-column: 6 / 7;
+        }
+    }
+}
+@media (max-width: 1200px){
+    body > header{
+        grid-template-columns: 0.05fr 0.1fr 0.05fr 0.8fr 0.05fr;
+        grid-template-rows: 10vh;
+        > ul{
+            display: none;
         }
     }
 }

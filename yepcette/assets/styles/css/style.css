@@ -61,8 +61,6 @@ body > header {
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.4);
   display: grid;
-  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.8fr 0.4fr 0.2fr 0.1fr;
-  grid-template-rows: 10vh;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 body > header > h1 {
@@ -114,7 +112,6 @@ body > header > nav > ul > li:hover {
   }
 }
 body > header > ul {
-  grid-column: 6/7;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -140,6 +137,24 @@ body > header > ul > li:hover > a {
   color: grey;
 }
 
+@media (min-width: 1200px) {
+  body > header {
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.8fr 0.4fr 0.2fr 0.1fr;
+    grid-template-rows: 10vh;
+  }
+  body > header > ul {
+    grid-column: 6/7;
+  }
+}
+@media (max-width: 1200px) {
+  body > header {
+    grid-template-columns: 0.05fr 0.1fr 0.05fr 0.8fr 0.05fr;
+    grid-template-rows: 10vh;
+  }
+  body > header > ul {
+    display: none;
+  }
+}
 #home > section:nth-of-type(1) {
   height: 70vh;
   background-image: url("https://cdn.shopify.com/s/files/1/0566/8526/5032/files/4_3d6903d4-c9f9-4a3b-8f6c-00e884e04bbf.png?v=1656921267");
@@ -215,6 +230,7 @@ body > header > ul > li:hover > a {
 }
 #home > section:nth-of-type(2) > ul > li > article > section > p {
   font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 #home > section:nth-of-type(2) > ul > li > article > footer {
   display: flex;
@@ -231,13 +247,6 @@ body > header > ul > li:hover > a {
   color: darkslategray;
   margin: 50px;
   text-align: center;
-}
-#home > section:nth-of-type(3) > ul {
-  width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
 }
 #home > section:nth-of-type(4) {
   display: grid;
@@ -256,6 +265,7 @@ body > header > ul > li:hover > a {
   margin: auto;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 }
 #home > section:nth-of-type(4) > ul > li {
@@ -277,7 +287,6 @@ body > header > ul > li:hover > a {
 }
 .article > header > figure > img {
   width: 100%;
-  height: 200px;
 }
 .article > section > h3 {
   font-size: 2rem;
@@ -320,6 +329,38 @@ body > header > ul > li:hover > a {
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
+@media (min-width: 1200px) {
+  #home > section:nth-of-type(3) > ul {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  #home > section:nth-of-type(2) > ul > li {
+    width: 30%;
+  }
+}
+@media (max-width: 1200px) {
+  #home > section:nth-of-type(3) > ul {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  #home > section:nth-of-type(2) > ul > li {
+    width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  #home > section:nth-of-type(2) > ul {
+    flex-direction: column;
+  }
+  #home > section:nth-of-type(2) > ul > li {
+    width: 90%;
+  }
+}
 a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
   margin: 0;
   padding: 0;
