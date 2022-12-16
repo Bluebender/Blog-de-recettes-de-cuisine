@@ -118,7 +118,7 @@
                 padding: 10px;
                 > figure{
                     > img{
-                        height: 300px;
+                        max-height: 300px;
                         border-radius: 5px;
                     }
                 }
@@ -151,11 +151,13 @@
         }
         > p{
             font-size: 1.2rem;
+            line-height: 1.5rem;
         }
     }
     > footer{
         display: flex;
         justify-content: center;
+        align-items: flex-end;
     }
 }
 
