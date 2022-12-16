@@ -915,9 +915,31 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
   line-height: 2rem;
 }
 #recette .mainrecette .demo {
-  width: 17rem;
+  width: 15rem;
 }
 
+@media (max-width: 1200px) {
+  #recette .mainrecette section:nth-of-type(3) ol li figure {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  #recette .mainrecette section:nth-of-type(3) ol li figure .demo {
+    width: 10rem;
+  }
+  #recette .mainrecette section:nth-of-type(3) ol li p {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}
+
+@media (max-width: 800px) {
+  #recette > section:nth-of-type(2) > ul {
+    flex-direction: column;
+  }
+  #recette > section:nth-of-type(2) > ul > li {
+    width: 90%;
+  }
+}
 /***** Work pour titre font-family: 'Work Sans', sans-serif; *****/
 /***** open pour texte  font-family: 'Open Sans', sans-serif; *****/
 /***** Corinthia pour logo *****/
