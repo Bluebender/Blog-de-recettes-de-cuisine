@@ -12,8 +12,7 @@
     height: 8vh;
     text-align: center;
     font-size:  3.5rem;
-    font-family: 'Work Sans', sans-serif;
-    
+    font-family: 'Work Sans', sans-serif ;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .m-section3{
@@ -28,8 +27,6 @@
     width: 360px;
     height: 400px;
     margin: 40px;
-    
-    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .card-image{
@@ -217,7 +214,6 @@
     .m-recette-du-jour {
         .figure4 {
             display: flex;
-            
              grid-column: 1 / 2 ;
              grid-row: 2 / 2;
              align-items: center;
