@@ -447,7 +447,7 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
 }
 
 #liste-recettes {
-  height: 260vh;
+  height: 335vh;
 }
 
 .m-section1 {
@@ -466,10 +466,11 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
 }
 
 .m-section3 {
-  height: 80vh;
+  height: 60vh;
   border-bottom: 1px solid black;
   display: flex;
   justify-content: center;
+  background-color: gainsboro;
 }
 
 .m-card {
@@ -477,14 +478,13 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
   width: 360px;
   height: 400px;
   margin: 40px;
-  border-radius: 15px;
-  border: 1px solid red;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-image {
   background-color: #1499e7;
-  height: 170px;
-  border-radius: 15px 15px 0 0;
+  height: 200px;
+  padding: 0;
 }
 
 .car-1 {
@@ -500,6 +500,153 @@ body .footer1 .f-article2 .f-list2 .f-li2 a span {
 .car-3 {
   background-image: url(https://img.cuisineaz.com/660x660/2016/08/31/i93404-gratin-de-lasagnes-a-la-bolognaise.jpg);
   background-size: cover;
+}
+
+.m-card h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.m-card p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.m-card footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.m-section4 {
+  height: 60vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+}
+
+.car-4 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm87QoJNvuIGiQcRhP9lljDX2P4juF6VOTgA&usqp=CAU);
+  background-size: cover;
+}
+
+.car-5 {
+  background-image: url(https://static.750g.com/images/1200-630/eac4a2099f6297ae9e20ccf7fd92d19e/pate-a-pizza-fine.png);
+  background-size: cover;
+}
+
+.car-6 {
+  background-image: url(https://img.cuisineaz.com/660x660/2016/08/31/i93404-gratin-de-lasagnes-a-la-bolognaise.jpg);
+  background-size: cover;
+}
+
+.m-section5 {
+  height: 60vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+}
+
+.m-recette-du-jour {
+  height: 105vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+}
+
+.m-card-recette-du-jour {
+  background-color: white;
+  width: 960px;
+  height: 700px;
+  margin: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  grid-template-columns: 0.6fr 1fr 0.6fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#liste-recettes .m-recette-du-jour .figure2 {
+  display: flex;
+  justify-content: center;
+  grid-column: 3/3;
+  grid-row: 1/2;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+#liste-recettes .m-recette-du-jour .figure1 {
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-items: center;
+  background-color: gainsboro;
+  justify-content: center;
+}
+
+#liste-recettes .m-recette-du-jour .figure3 {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 2/2;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+#liste-recettes .m-recette-du-jour figure .chef {
+  border-radius: 100%;
+  width: 50%;
+}
+
+#liste-recettes .m-recette-du-jour figure .logo {
+  border-radius: 100%;
+  width: 20%;
+}
+
+#liste-recettes .m-recette-du-jour figure .plat {
+  width: 100%;
+}
+
+#liste-recettes .m-recette-du-jour h3 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: #E02C2C;
+}
+
+#liste-recettes .m-recette-du-jour figure .fourchette {
+  width: 100%;
+}
+
+#liste-recettes .m-recette-du-jour .figure4 {
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 2/2;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+#liste-recettes .m-recette-du-jour .figure5 {
+  display: flex;
+  grid-column: 3/3;
+  grid-row: 2/2;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+#liste-recettes .m-recette-du-jour p {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 3/3;
+  align-items: center;
+  background-color: gainsboro;
 }
 
 #recette .mainrecette {
