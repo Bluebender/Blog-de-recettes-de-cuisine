@@ -1,4 +1,5 @@
 body > header{
+    z-index: 3;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -80,6 +81,9 @@ body > header{
             grid-column: 6 / 7;
         }
     }
+    #nav_mobil{
+        display: none;
+    }
 }
 @media (max-width: 1200px){
     body > header{
@@ -89,4 +93,32 @@ body > header{
             display: none;
         }
     }
+    #nav_mobil{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    body > header{
+        grid-template-columns: 0.05fr 0.1fr 0.05fr 0.8fr 0.05fr;
+        grid-template-rows: 10vh;
+        > ul{
+            display: none;
+        }
+    }
+    #nav_pc{
+        display: none;
+    }
+    #nav_mobil{
+        grid-column: 5 /6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > span{
+            color: white;
+            font-size: 3rem;
+        }
+        
+    }
+
 }
