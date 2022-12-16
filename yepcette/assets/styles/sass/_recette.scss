@@ -1,0 +1,66 @@
+#recette 
+{
+
+
+ .mainrecette 
+{
+        
+        display:grid;
+        grid-template-columns: 1fr 4fr 0.5fr 2fr 1fr;
+         
+        section:nth-of-type(1)
+    {
+            grid-column: 1 / 6 ;
+            background:url("https://wallpapersmug.com/download/1920x1080/930962/vegetables-fresh.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 70vh;  
+    }
+       section:nth-of-type(2)
+    {
+             grid-column: 2 / 3 ;
+    }
+       section:nth-of-type(3)
+    {
+             grid-column: 2 / 3 ;
+    }
+    
+    
+       aside::nth-of-type(1) 
+    {
+             grid-column: 4 / 5 ;
+    }
+       aside::nth-of-type(2) 
+    {
+             grid-column: 4 / 5 ;
+    }
+}
+
+}
+  
+
+
+.btn-blue{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    @media (prefers-color-scheme: light){
+      background-color: $lightThemeBlue;
+    }
+    @media (prefers-color-scheme: dark){
+      background-color: $darkThemeBlue;
+    }
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+}
