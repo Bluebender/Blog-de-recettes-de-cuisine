@@ -56,6 +56,7 @@ table {
 }
 
 body > header {
+  z-index: 3;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -323,10 +324,12 @@ body > header > ul > li:hover > a {
 }
 .article > section > p {
   font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 .article > footer {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .btn-blue {
