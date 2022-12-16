@@ -60,7 +60,7 @@ body > header {
   position: fixed;
   top: 0;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   display: grid;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -184,6 +184,9 @@ body > header > ul > li:hover > a {
     font-size: 3rem;
   }
 }
+#home {
+  width: 100vw;
+}
 #home > section:nth-of-type(1) {
   height: 70vh;
   background-image: url("https://cdn.shopify.com/s/files/1/0566/8526/5032/files/4_3d6903d4-c9f9-4a3b-8f6c-00e884e04bbf.png?v=1656921267");
@@ -192,9 +195,6 @@ body > header > ul > li:hover > a {
   grid-template-columns: 1fr 1.2fr;
   justify-content: center;
   align-items: center;
-}
-#home > section:nth-of-type(1) > section {
-  grid-column: 2/3;
 }
 #home > section:nth-of-type(1) > section > h1 {
   font-size: 5rem;
@@ -205,7 +205,7 @@ body > header > ul > li:hover > a {
   font-size: 2.6rem;
   font-weight: bold;
   color: #ffffff;
-  width: 60vh;
+  max-width: 30vw;
 }
 #home > section:nth-of-type(1) > section > p > span {
   color: #fdfbe3;
@@ -243,7 +243,7 @@ body > header > ul > li:hover > a {
   width: 100%;
 }
 #home > section:nth-of-type(2) > ul > li > article > header > figure > img {
-  width: 200px;
+  max-width: 200px;
   border-radius: 100%;
 }
 #home > section:nth-of-type(2) > ul > li > article > section {
@@ -392,6 +392,10 @@ body > header > ul > li:hover > a {
     width: 90%;
   }
 }
+#home > li, figure, img {
+  max-width: 100%;
+}
+
 a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
   margin: 0;
   padding: 0;

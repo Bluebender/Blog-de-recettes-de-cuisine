@@ -1,4 +1,5 @@
 #home{
+    width: 100vw;
     > section:nth-of-type(1){
         height: 70vh;
         background-image: url("https://cdn.shopify.com/s/files/1/0566/8526/5032/files/4_3d6903d4-c9f9-4a3b-8f6c-00e884e04bbf.png?v=1656921267");
@@ -8,7 +9,7 @@
         justify-content: center;
         align-items: center;
         > section{
-            grid-column: 2 / 3;
+            // grid-column: 2 / 3;
             > h1{
                 font-size: 5rem;
                 font-weight: bold;
@@ -18,7 +19,7 @@
                 font-size: 2.6rem;
                 font-weight: bold;
                 color: $white;
-                width: 60vh;
+                max-width: 30vw;
                 > span{
                     color: $titreClaire;
                 }
@@ -56,7 +57,7 @@
                         > figure{
                             width: 100%;
                             > img{
-                                width: 200px;
+                                max-width: 200px;
                                 border-radius: 100%;
                             }
                         }
@@ -247,4 +248,8 @@
             }
         }
     }
+}
+
+#home > li, figure, img{
+    max-width: 100%;
 }
