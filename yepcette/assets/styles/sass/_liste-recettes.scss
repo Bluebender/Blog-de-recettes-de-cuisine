@@ -7,6 +7,23 @@
     background-image: url(https://1964035949.rsc.cdn77.org/uploads/media/5956128d0a17e.png);
     background-size: cover;
     box-shadow: 1px;
+    display: flex;
+}
+.m-titre1{
+    color: white;
+    font-weight: 700;
+    font-size: 4.5rem;
+    align-items: center;
+    display: flex;
+    padding-left: 55vw;
+    
+    p {
+        
+    }
+}
+.span1 {
+    color: gold;
+    text-decoration: underline 8px solid gold;
 }
 .m-section2{
     height: 8vh;
@@ -69,6 +86,12 @@
         display: flex;
         justify-content: center;
         margin-top: 2vh;
+        a {
+            color: darkslategray;
+            font-size: 1.2rem;
+            font-weight: bold;
+           text-decoration: underline solid 3px #e49c86;
+        }
     }
 }
 
@@ -204,6 +227,7 @@
         figure {
             .plat {
                 width: 100%;
+                border-radius: 50%;
             }
         }
     }
@@ -298,3 +322,4 @@ box-shadow: 1px 1px 4px #777777;
     align-items: center;
     justify-content: center;
 }
+
