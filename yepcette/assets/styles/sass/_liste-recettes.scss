@@ -56,13 +56,22 @@
     background-image: url(https://www.hervecuisine.com/wp-content/uploads/2017/12/recette-raclette-1118x516.jpg.webp);
     background-size: cover;
 }
+.car-1:hover {
+    transform: scale(1.1);
+}
 .car-2 {
     background-image: url(https://www.cuisineactuelle.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F03ab5e89-bad7-4a44-b952-b30c68934215.2Ejpeg/555x276/quality/80/crop-from/center/burger-maison.jpeg);
     background-size: cover;
 }
+.car-2:hover {
+    transform: scale(1.1);
+}
 .car-3 {
     background-image: url(https://img.cuisineaz.com/660x660/2016/08/31/i93404-gratin-de-lasagnes-a-la-bolognaise.jpg);
     background-size: cover;
+}
+.car-3:hover {
+    transform: scale(1.1);
 }
 .m-card {
     h3 {
@@ -73,6 +82,7 @@
     color: darkslategray;
     }
 }
+
 .m-card {
     p {
         font-size: 1.2rem;
@@ -92,7 +102,14 @@
         }
     }
 }
-
+.m-card {
+    footer{
+      a:hover {
+          color: #FFC300;
+          text-decoration: underline solid 3px #FF5733;
+      }
+    }
+}
 
 .m-section4{
     display: flex;
@@ -103,28 +120,44 @@
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm87QoJNvuIGiQcRhP9lljDX2P4juF6VOTgA&usqp=CAU);
     background-size: cover;
 }
+.car-4:hover {
+    transform: scale(1.1);
+}
 .car-5 {
     background-image: url(https://static.750g.com/images/1200-630/eac4a2099f6297ae9e20ccf7fd92d19e/pate-a-pizza-fine.png);
     background-size: cover;
+}
+.car-5:hover {
+    transform: scale(1.1);
 }
 .car-6 {
     background-image: url( https://www.radiofrance.fr/s3/cruiser-production/2016/01/99ed246f-b5fc-11e5-b817-005056a87c30/860_raclette-du-valais-aoc-5.jpg);
     background-size: cover;
 }
-
+.car-6:hover {
+    transform: scale(1.1);
+}
 .car-7 {
    background-image: url(https://www.grazia.fr/wp-content/uploads/grazia/2013/10/Joue-de-baeuf-confite-et-potimarron-braise.jpg);
     background-size: cover; 
+}
+.car-7:hover {
+    transform: scale(1.1);
 }
 .car-8 {
     background-image: url(https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_488,q_auto,w_650/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/177274/122825858.jpg);
     background-size: cover;
 }
+.car-8:hover {
+    transform: scale(1.1);
+}
 .car-9 {
     background-image: url(https://marcwiner.com/wp-content/uploads/2022/03/porc-caramel-tiktok-scaled.jpg);
     background-size: cover; 
 }
-
+.car-9:hover {
+    transform: scale(1.1);
+}
 
 
 
